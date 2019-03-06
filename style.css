@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'deckerregular';
+    src: url('font/decker-webfont.woff2') format('woff2'),
+         url('font/decker-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: "deckerregular";
+    vertical-align: baseline;
+    background: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    margin: 0.5em;
+    font-size: 3em
+}
+
+.highpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+
+.top{
+    align-self: flex-end;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    color: white;
+    
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-self: flex-start;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.scrollForMore{
+    align-self: center;
+}
+
+.linkImg{
+    height: 3em;
+    width: 3em;
+}
